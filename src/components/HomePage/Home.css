@@ -1,0 +1,94 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow:wrap;
+    background-color: #A03037;
+    color: rgb(48, 44, 44);
+    padding-top: 1%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.projecticon {
+    margin-left: 10%; 
+    margin-right: 1%; 
+    margin-bottom: 1%;
+}
+
+.projectname {
+    margin-right: 5%;
+}
+
+.projectsearch {
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.projectcart {
+    margin-left: auto;
+}
+
+.containerbody {
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.loginbutton {
+    margin-right: 10%;
+    padding: 10px 20px;
+    margin-left: 4%;
+    height: fit-content;
+}
+
+.container {
+    width: 80%;
+    padding: 44px;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px grey;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 4%;
+}
+
+.cardcontent {
+    text-align: left;
+    margin-left: 4%;
+}
+
+.cardtitle {
+    font-size: 18px;
+    font-weight: 500;
+}
+.authorname {
+    font-size: 12px;
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    box-sizing: border-box;
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 6px;
+      margin-bottom: 50%
+    }

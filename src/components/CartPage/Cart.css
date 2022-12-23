@@ -1,0 +1,39 @@
+.cartContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cartcontainerbody {
+    background-color: #A03037;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.cardContent {
+    margin-left: auto;
+    margin-left: 10%;
+    width: -webkit-fill-available;
+
+}
+
+.cardAction {
+    display: flex;
+    margin-left: auto;
+}
+
+.countOfItems {
+    display: flex;
+}
+
+.countBox {
+    width: 5%;
+    padding: 5px 20px;
+    text-emphasis: none;
+}
+
+.count {
+    
+}
